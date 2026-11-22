@@ -1,0 +1,26 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tiktoken_cache/
+.uv_cache/
+
+# Local secrets: never commit them
+.env
+.env.*
+!.env.example
+
+# Internal development & agent scaffolding
+.agents/
+.groundwork/
+specs/
+DECISIONS/
+AGENTS.md
+ARCHITECTURE.md
+CONSTITUTION.md
+CODEMAP.md
+PROJECT.md
